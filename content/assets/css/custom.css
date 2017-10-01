@@ -1,0 +1,86 @@
+/*!
+ * Inspired by Grayscale Bootstrap Theme
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    background-color: #eee;
+}
+
+h1,
+h2,
+{
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+a {
+    color: #42dca3;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #1d9b6c;
+}
+
+.post-nav a:hover i,
+.post-nav a:focus i {
+    color: #1d9b6c;
+}
+
+.pagination a:hover,
+.pagination a:focus {
+    color: #1d9b6c;
+    border-color: #1d9b6c;
+}
+
+.post-comments-activate:hover,
+.post-comments-activate:focus {
+    color: #1d9b6c;
+    border-color: #1d9b6c;
+}
+
+.post-content a {
+    border-bottom: 1px solid #1d9b6c;
+}
+
+.post-content a:hover,
+.post-content a:focus {
+    color: #1d9b6c;
+}
+
+#menu .close-button:hover:after,
+#menu .close-button:hover:before,
+#menu .close-button:focus:after,
+#menu .close-button:focus:before {
+    background: #1d9b6c;
+}
+
+#menu .close-button:hover,
+#menu .close-button:focus {
+    border-color: #1d9b6c;
+}
+
+#menu li.active:after {
+    background: #1d9b6c;
+}
+
+.post-tags a {
+    border: 1px solid #1d9b6c;
+    color: #1d9b6c;
+}
+
+.post-tags a:hover,
+.post-tags a:focus {
+    background: #1d9b6c;
+}
